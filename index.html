@@ -4,12 +4,18 @@
     <meta charset="utf-8">
     <title>2ood's travel map</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <h1 id="title">2ood's travel map</h1>
     <main id="main">
       <object id="map-object" data="Administrative_divisions_map_of_South_Korea.svg" type="image/svg+xml"></object>
       <!-- The svg data is cited from WIKIPEDIA-->
       <!-- https://commons.wikimedia.org/wiki/File:Map_of_the_administrative_district_of_South_Korea.svg -->
+      <monitor id="monitor">
+      <h2 id="region-name"></h2>
+      <p id="region-passage"></p>
+      <monitor>
     </main>
   </body>
   <script src="script.js"></script>

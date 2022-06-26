@@ -1,8 +1,90 @@
+:root {
+  --color1 : #cad2c5;
+  --color2 : #84a98c;
+  --color3 : #52796f;
+  --color4 : #354f52;
+  --color-hover : white;
+  --color-visited : skyblue;
+}
+
+svg {
+  width : 100%;
+}
+
 path {
-  fill : transparent;
+  color : transparent;
   stroke : black;
 }
 
+path:hover {
+  fill : black;
+}
+
+#서울특별시 path,
+#충청북도 path,
+#전라남도 path,
+#울산광역시 path {fill : var(--color4);}
+
+#강원도 path,
+#전라북도 path,
+#인천광역시 path,
+#대구광역시 path,
+#부산광역시 path,
+#세종특별자치시 {fill : var(--color1);}
+#도서 path {
+  fill : var(--color1);
+  opacity :.5;
+}
+
+#경기도 path,
+#대전광역시 path,
+#광주광역시 path,
+#경상북도 path,
+#제주특별자치도 path {fill : var(--color2);}
+
+#충청남도 path,
+#경상남도 path {fill : var(--color3);}
+
+
+
+
+#서울특별시 path:hover ,
+#강원도 path:hover,
+#경기도 path:hover,
+#경상남도 path:hover,
+#경상북도 path:hover,
+#충청남도 path:hover,
+#충청북도 path:hover,
+#전라남도 path:hover,
+#전라북도 path:hover,
+#인천광역시 path:hover,
+#대전광역시 path:hover,
+#대구광역시 path:hover,
+#광주광역시 path:hover,
+#부산광역시 path:hover,
+#울산광역시 path:hover,
+#제주특별자치도 path:hover,
+#세종특별자치시:hover {fill:var(--color-hover);}
+
+#서울특별시 path.visited ,
+#강원도 path.visited,
+#경기도 path.visited,
+#경상남도 path.visited,
+#경상북도 path.visited,
+#충청남도 path.visited,
+#충청북도 path.visited,
+#전라남도 path.visited,
+#전라북도 path.visited,
+#인천광역시 path.visited,
+#대전광역시 path.visited,
+#대구광역시 path.visited,
+#광주광역시 path.visited,
+#부산광역시 path.visited,
+#울산광역시 path.visited,
+#제주특별자치도 path.visited,
+#세종특별자치시.visited {fill:var(--color-visited);opacity : 1;}
+
+
 path.visited {
-  fill : blue;
+  fill : skyblue;
 }
