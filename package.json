@@ -1,0 +1,22 @@
+{
+  "name": "travel-map",
+  "version": "1.0.0",
+  "description": "my travel map",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ood/travel-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ood/travel-map/issues"
+  },
+  "homepage": "https://github.com/2ood/travel-map#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
