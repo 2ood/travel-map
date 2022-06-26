@@ -1,0 +1,8 @@
+path {
+  fill : transparent;
+  stroke : black;
+}
+
+path.visited {
+  fill : blue;
+}
